@@ -157,6 +157,9 @@
 	/// If the spell creates visual effects.
 	var/has_visual_effects = TRUE
 
+	/// Tier of the spell to cast. Every mage has limited slots for each tier of spells
+	var/spell_tier = 0
+
 	// Exp gain variables
 	// Experience gain is dependant on spell cost and the associated skill
 	/// Experience gain modifier, cost is multipled by this to get experience gain.
