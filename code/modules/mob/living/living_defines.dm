@@ -217,6 +217,25 @@
 	var/spell_points
 	/// amount of spell points this mob has used
 	var/used_spell_points
+	/// key/pair list amount of spell slots of each spell level this mob is allowed
+	/// the key (first) number is the spell level, the assigned value is the amount of spells of said level
+	var/spell_slots = list(
+		0 = 0
+		1 = 0
+		2 = 0
+		3 = 0
+		4 = 0
+		5 = 0
+	)
+	/// the same as spell_slots, but only the amount used, instead of amount alloted
+	var/used_spell_slots = list(
+		0 = 0
+		1 = 0
+		2 = 0
+		3 = 0
+		4 = 0
+		5 = 0
+	)
 
 	var/list/affixes = list()
 	var/delve_level = 0

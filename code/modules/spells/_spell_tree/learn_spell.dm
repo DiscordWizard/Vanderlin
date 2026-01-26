@@ -336,7 +336,12 @@
 		</div>
 
 		<div class="info-panel">
-			<div>Spell Points: [user.spell_points - user.used_spell_points]/[user.spell_points]</div>
+			<div>Level 0 Spell Slots: [user.spell_slots[0] - user.used_spell_slots[0]]/[user.spell_slots[0]]</div>
+			<div>Level 1 Spell Slots: [user.spell_slots[1] - user.used_spell_slots[1]]/[user.spell_slots[1]]</div>
+			<div>Level 2 Spell Slots: [user.spell_slots[2] - user.used_spell_slots[2]]/[user.spell_slots[2]]</div>
+			<div>Level 3 Spell Slots: [user.spell_slots[3] - user.used_spell_slots[3]]/[user.spell_slots[3]]</div>
+			<div>Level 4 Spell Slots: [user.spell_slots[4] - user.used_spell_slots[4]]/[user.spell_slots[4]]</div>
+			<div>Level 5 Spell Slots: [user.spell_slots[5] - user.used_spell_slots[5]]/[user.spell_slots[5]]</div>
 		</div>
 
 		<div class="tooltip" id="tooltip" style="display: none;"></div>
