@@ -60,6 +60,8 @@
 	var/point_cost = 0
 	/// Cost to cast based on [spell_type].
 	var/spell_cost = 0
+	/// Level of the spell, every caster has limited slots of each level
+	var/spell_level = 0
 
 	/// The sound played on cast.
 	var/sound = 'sound/magic/whiteflame.ogg'
